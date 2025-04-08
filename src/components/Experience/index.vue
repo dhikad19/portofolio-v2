@@ -20,7 +20,7 @@
           <p class="experience-content">
             {{ item.description }}
           </p>
-          <div class="experience-tech" >
+          <div class="experience-tech" v-if="item.tech">
             <div class="tech-list" v-for="list in item.tech" :key="list">
               {{ list }}
             </div>
@@ -42,6 +42,12 @@ export default {
           role: 'Frontend Engineer, PT.Kali Besar Raya Utama · Jagain.com',
           description: 'Develop and maintain key components for both the front office and back office (dashboard) of the Jagain.com insurance website. Work closely with cross-functional teams, including developers, designers, and product managers, to create seamless, user-friendly experiences for both customers and internal users. Advocate for best practices in web accessibility, performance, and security across the entire platform.',
           tech: ['Javascript', 'Nuxt', 'Vue', 'React', 'HTML & SCSS']
+        },
+        {
+          date: '2022 — Present',
+          role: 'Frontend Engineer, PT.Kali Besar Raya Utama · Jagain.com',
+          description: 'Develop and maintain key components for both the front office and back office (dashboard) of the Jagain.com insurance website. Work closely with cross-functional teams, including developers, designers, and product managers, to create seamless, user-friendly experiences for both customers and internal users. Advocate for best practices in web accessibility, performance, and security across the entire platform.',
+          tech: []
         }
       ]
     }
