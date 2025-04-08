@@ -1,0 +1,37 @@
+.about-description {
+  color: var(--dark-color);
+  font-size: 17px;
+  @media screen and (max-width: 1025px) {
+    font-size: 16px;
+    margin: 5px 0px 0px 0px;
+  }
+}
+
+.content {
+  margin-top: -8px;
+}
+
+#projects {
+  padding-top: 6rem;
+  @media screen and (max-width: 1025px) {
+    padding-top: 0.5rem;
+  }
+}
+
+.title-mobile {
+  display: none;
+  @media screen and (max-width: 1025px) {
+    display: flex;
+    top: 0;
+    background-color: var(--secondary-dark-color);
+    position: sticky;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}

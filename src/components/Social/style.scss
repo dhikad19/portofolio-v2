@@ -1,0 +1,58 @@
+.social-container {
+  display: flex;
+  gap: 18px;
+  padding-bottom: 6rem;
+  @media screen and (max-width: 1025px) {
+    padding-bottom: 3rem;
+    gap: 12px;
+  }
+}
+
+.social-icon {
+  cursor: pointer;
+}
+
+.social-icon-mail {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: fit-content;
+  margin-bottom: 8px;
+  p {
+    margin-left: 10px;
+    margin-bottom: 18px;
+    color: var(--dark-color);
+  }
+  &:hover {
+    .mail-svg {
+      fill: var(--text-color);
+    }
+    p {
+      color: var(--text-color);
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    margin-bottom: 0px;
+    padding-top: 1rem;
+  }
+}
+
+.mail-svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--dark-color);
+}
+
+svg {
+  width: 26px;
+  height: 26px;
+  fill: var(--dark-color);
+  &:hover {
+    fill: var(--text-color);
+  }
+  @media screen and (max-width: 1025px) {
+    width: 24px;
+    height: 24px;
+  }
+}
