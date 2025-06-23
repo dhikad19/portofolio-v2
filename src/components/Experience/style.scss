@@ -18,6 +18,15 @@
   }
 }
 
+.full-resume {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-weight: 500;
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
+}
+
 .content {
   margin-top: -18px;
   margin-left: -1.2rem;
@@ -187,4 +196,12 @@
   padding: 4px 15px 4px 15px;
   border-radius: 20px;
   background-color: #ff770031;
+}
+
+svg {
+  width: 17px;
+  margin-top: 15px;
+  margin-left: 10px;
+  height: 17px;
+  fill: #ff7800;
 }

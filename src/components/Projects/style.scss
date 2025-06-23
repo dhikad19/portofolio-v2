@@ -1,3 +1,7 @@
+#projects {
+  margin-bottom: 30px;
+}
+
 .list-container {
   &:hover {
     .experience-card {
@@ -12,18 +16,28 @@
   font-weight: 500;
 }
 
+// .projects-description {
+//   font-size: 15px;
+// }
+
+.projects-right {
+  margin-left: 20px;
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
+}
+
 .projects-header {
   display: flex;
-  align-items: center;
   margin-bottom: 6px;
 }
 
 .projects-description {
   color: var(--dark-color);
-  font-size: 17px;
-  padding-left: 50px;
+  font-size: 15px;
+  // padding-left: 50px;
   @media screen and (max-width: 1025px) {
-    font-size: 16px;
+    font-size: 15px;
   }
   @media screen and (max-width: 768px) {
     padding-left: 0px;
@@ -41,7 +55,7 @@
   &:hover {
     background-color: #e7c5a721;
     opacity: 1 !important;
-    .experience-title {
+    .projects-title {
       color: var(--primary-color);
     }
   }
@@ -53,10 +67,32 @@
       background-color: transparent;
     }
   }
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.img-project {
+  max-width: 140px;
+  margin-top: 5px;
+  border-radius: 6px;
+  object-fit: contain;
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 .content {
   margin-top: -8px;
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
+  @media screen and (max-width: 1025px) {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -8px;
+  }
 }
 
 #projects {
