@@ -36,6 +36,7 @@
                     style="text-decoration: none">
                     <div class="project-item" @click="handleProjectLink(i, j)">
                       <svg
+                        style="margin-bottom: 12px;"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 512">
                         <path
