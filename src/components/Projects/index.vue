@@ -68,6 +68,14 @@ buat
             img: "/assets/projects/porto.png",
             tech: ["Next", "Material UI", "Netlify"],
           },
+          {
+            name: "Simply",
+            description:
+              "Simply is a modern, stylish, and responsive landing page for an online fashion store, crafted using React. Designed to provide a seamless and engaging user experience.",
+            url: "https://simply-eshop.netlify.app/",
+            img: "/assets/projects/simply.png",
+            tech: ["React", "Netlify"],
+          },
         ],
       };
     },
